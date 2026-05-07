@@ -50,7 +50,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
+    min-height: 70px;
 }
 
 #logo {
@@ -81,7 +81,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    height: 85vh;
+    min-height: 85vh;
 }
 
 .scoreSec {
@@ -172,9 +172,9 @@ footer img {
 
 @media (max-width: 900px) {
     header {
-        padding: 12px 18px;
-        height: 12vh;
-        gap: 12px;
+        padding: 10px 16px;
+        height: auto;
+        gap: 10px;
     }
 
     #logo img,
@@ -188,10 +188,10 @@ footer img {
 
     main {
         padding: 18px;
-        margin-top: 12vh;
-        margin-bottom: 8vh;
+        margin-top: 80px;
+        margin-bottom: 70px;
         height: 80vh;
-        gap: 5rem;
+        gap: 3rem;
     }
 
     .reset-btn {
@@ -207,7 +207,7 @@ footer img {
     }
 
     .choice {
-        height: 100x;
+        height: 100px;
         width: 100px;
     }
 
@@ -234,7 +234,7 @@ footer img {
     }
 
     footer {
-        padding: 1rem 18px;
-        height: 8vh;
+        padding: 1rem 2rem;
+        height: auto;
     }
 }
